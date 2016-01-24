@@ -2,7 +2,7 @@
 [![travis](http://img.shields.io/travis/start-runner/eslint.svg?style=flat-square)](https://travis-ci.org/start-runner/eslint)
 [![deps](https://img.shields.io/gemnasium/start-runner/eslint.svg?style=flat-square)](https://gemnasium.com/start-runner/eslint)
 
-[ESLint](http://eslint.org/) plugin for [Start](https://github.com/start-runner/start)
+[ESLint](http://eslint.org/) runner for [Start](https://github.com/start-runner/start).
 
 ## Install
 
