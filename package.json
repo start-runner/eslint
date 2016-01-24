@@ -1,6 +1,6 @@
 {
   "name": "start-eslint",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ESLint runner for Start",
   "keywords": [ "tasks", "runner", "start", "eslint" ],
   "homepage": "https://github.com/start-runner/eslint",
