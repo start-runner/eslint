@@ -28,5 +28,6 @@ export const test = [
 "scripts": {
   "task": "babel-node node_modules/.bin/start tasks/",
   "eslint": "npm run task eslint",
+  "test": "npm run task test"
 }
 ```
