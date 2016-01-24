@@ -1,7 +1,6 @@
 [![npm](https://img.shields.io/npm/v/start-eslint.svg?style=flat-square)](https://www.npmjs.com/package/start-eslint)
-[![travis](http://img.shields.io/travis/start-runner/start-eslint.svg?style=flat-square)](https://travis-ci.org/start-runner/start-eslint)
-[![coverage](https://img.shields.io/codecov/c/github/start-runner/start-eslint.svg?style=flat-square)](https://codecov.io/github/start-runner/start-eslint)
-[![deps](https://img.shields.io/gemnasium/start-runner/start-eslint.svg?style=flat-square)](https://gemnasium.com/start-runner/start-eslint)
+[![travis](http://img.shields.io/travis/start-runner/eslint.svg?style=flat-square)](https://travis-ci.org/start-runner/eslint)
+[![deps](https://img.shields.io/gemnasium/start-runner/eslint.svg?style=flat-square)](https://gemnasium.com/start-runner/eslint)
 
 [ESLint](http://eslint.org/) plugin for [Start](https://github.com/start-runner/start)
 
