@@ -16,7 +16,7 @@ In your `tasks/index.js` or any other location your run your tasks from:
 
 ```js
 // as a separate task
-export eslint from 'start-eslint';
+export { eslint } from 'start-eslint';
 ```
 
 ```js
