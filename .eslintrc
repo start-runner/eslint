@@ -4,9 +4,6 @@
     "rebem/configs/babel"
   ],
   "rules": {
-    "no-console": 0,
-    "no-magic-numbers": 0,
-    "no-process-exit": 0,
-    "max-nested-callbacks": 0
+    "no-console": 0
   }
 }
