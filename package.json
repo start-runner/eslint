@@ -36,7 +36,6 @@
 
     "lint": "eslint .",
     "test": "npm run lint",
-
     "travis": "npm test",
 
     "prepush": "npm test",
