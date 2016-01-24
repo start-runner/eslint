@@ -7,20 +7,15 @@
 ## Install
 
 ```
-npm i -S start-eslint
+npm i -D start-eslint
 ```
 
 ## Usage
 
-In your `tasks/index.js` or any other location your run your tasks from:
-
 ```js
-// as a separate task
+// tasks/index.js
 export { eslint } from 'start-eslint';
-```
 
-```js
-// run in a sequence with other tasks
 export const test = [
   ...
   exports.eslint,
