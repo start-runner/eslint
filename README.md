@@ -14,11 +14,11 @@ npm i -D start-eslint
 
 ```js
 // tasks/index.js
-export { eslint } from 'start-eslint';
+export eslint from 'start-eslint';
 
 export const test = [
   ...
-  exports.eslint,
+  eslint(),
   ...
 ];
 ```
@@ -27,7 +27,14 @@ export const test = [
 // package.json
 "scripts": {
   "task": "babel-node node_modules/.bin/start tasks/",
-  "eslint": "npm run task eslint",
   "test": "npm run task test"
 }
 ```
+
+## Arguments
+
+`eslint(files, options, formatter)`
+
+* `files` – files to execute ESLint on, see [`executeOnFiles()`](http://eslint.org/docs/developer-guide/nodejs-api.html#executeonfiles) (`[ '.' ]` by default)
+* `options` – ESLint options, see [CLIEngine options](http://eslint.org/docs/developer-guide/nodejs-api.html#cliengine)
+* `formatter` – output formatter, see [`getFormatter()`](http://eslint.org/docs/developer-guide/nodejs-api.html#getformatter)
