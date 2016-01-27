@@ -2,7 +2,7 @@
   "name": "start-eslint",
   "version": "0.2.0",
   "description": "ESLint runner for Start",
-  "keywords": [ "tasks", "runner", "start", "eslint" ],
+  "keywords": [ "start-task", "eslint" ],
   "homepage": "https://github.com/start-runner/eslint",
   "repository": "start-runner/eslint",
   "contributors": [
