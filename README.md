@@ -14,13 +14,17 @@ npm i -D start-eslint
 
 ```js
 // tasks/index.js
-export eslint from 'start-eslint';
+import start from 'start';
+import logger from 'start-simple-logger';
+import eslint from 'start-eslint';
 
-export const test = [
-  ...
-  eslint(),
-  ...
-];
+export function test() {
+    return start(logger)(
+        ...
+        eslint(),
+        ...
+    );
+}
 ```
 
 ```js
