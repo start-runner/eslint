@@ -11,6 +11,9 @@
   ],
   "files": [ "build/" ],
   "main": "build/index.js",
+  "peerDepencencies": {
+    "start": "2.x.x"
+  },
   "dependencies": {
     "eslint": "1.x.x",
     "babel-runtime": "6.x.x"
