@@ -31,7 +31,7 @@ export function lint() {
 // package.json
 "scripts": {
   "task": "babel-node node_modules/.bin/start tasks/",
-  "test": "npm run task test"
+  "lint": "npm run task lint"
 }
 ```
 
