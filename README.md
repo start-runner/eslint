@@ -22,7 +22,7 @@ import files from 'start-files';
 import eslint from 'start-eslint';
 
 export function lint() {
-    return start(logger)(
+    return start(logger())(
         files('.'),
         eslint()
     );
