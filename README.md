@@ -23,7 +23,8 @@ import eslint from 'start-eslint';
 
 export function lint() {
     return start(logger())(
-        files('.'),
+        files('**/*.js'),
+        // `.eslintignore` is respected
         eslint()
     );
 }
