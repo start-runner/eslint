@@ -12,6 +12,8 @@ npm i -D start-eslint
 
 ## Usage
 
+Task is rely on array of files.
+
 ```js
 // tasks/index.js
 import start from 'start';
