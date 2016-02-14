@@ -1,7 +1,8 @@
 # start-eslint
 
 [![npm](https://img.shields.io/npm/v/start-eslint.svg?style=flat-square)](https://www.npmjs.com/package/start-eslint)
-[![travis](http://img.shields.io/travis/start-runner/eslint.svg?style=flat-square)](https://travis-ci.org/start-runner/eslint)
+[![linux build](https://img.shields.io/travis/start-runner/eslint.svg?label=linux&style=flat-square)](https://travis-ci.org/start-runner/eslint)
+[![windows build](https://img.shields.io/appveyor/ci/start-runner/eslint.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/eslint)
 [![coverage](https://img.shields.io/codecov/c/github/start-runner/eslint.svg?style=flat-square)](https://codecov.io/github/start-runner/eslint)
 [![deps](https://img.shields.io/gemnasium/start-runner/eslint.svg?style=flat-square)](https://gemnasium.com/start-runner/eslint)
 [![gitter](https://img.shields.io/badge/gitter-join_chat_%E2%86%92-00d06f.svg?style=flat-square)](https://gitter.im/start-runner/start)
@@ -31,7 +32,7 @@ export function lint() {
 }
 ```
 
-Task is rely on array of files, see [documentation](https://github.com/start-runner/start#readme) for details.
+This task relies on array of files and provides the same, see [documentation](https://github.com/start-runner/start#readme) for details.
 
 ## Arguments
 
