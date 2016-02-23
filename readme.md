@@ -25,7 +25,7 @@ import eslint from 'start-eslint';
 
 export function lint() {
     return start(reporter())(
-        files('**/*.js'),
+        files([ 'lib/**/*.js', 'test/**/*.js' ]),
         // `.eslintignore` is respected
         eslint()
     );
