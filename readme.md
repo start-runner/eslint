@@ -17,18 +17,18 @@ npm i -D start-eslint
 ## Usage
 
 ```js
-import start from 'start';
+import Start from 'start';
 import reporter from 'start-pretty-reporter';
 import files from 'start-files';
 import eslint from 'start-eslint';
 
-export function lint() {
-    return start(reporter())(
-        files([ 'lib/**/*.js', 'test/**/*.js' ]),
-        // `.eslintignore` is respected
-        eslint()
-    );
-}
+const start = Start(reporter());
+
+export const lint = () => start(
+    files([ 'lib/**/*.js', 'test/**/*.js' ]),
+    // `.eslintignore` is respected
+    eslint()
+);
 ```
 
 This task relies on array of files and provides the same, see [documentation](https://github.com/start-runner/start#readme) for details.
