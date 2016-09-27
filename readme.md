@@ -1,9 +1,9 @@
 # start-eslint
 
 [![npm](https://img.shields.io/npm/v/start-eslint.svg?style=flat-square)](https://www.npmjs.com/package/start-eslint)
-[![linux build](https://img.shields.io/travis/start-runner/eslint.svg?label=linux&style=flat-square)](https://travis-ci.org/start-runner/eslint)
-[![windows build](https://img.shields.io/appveyor/ci/start-runner/eslint.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/eslint)
-[![coverage](https://img.shields.io/codecov/c/github/start-runner/eslint.svg?style=flat-square)](https://codecov.io/github/start-runner/eslint)
+[![linux build](https://img.shields.io/travis/start-runner/eslint/master.svg?label=linux&style=flat-square)](https://travis-ci.org/start-runner/eslint)
+[![windows build](https://img.shields.io/appveyor/ci/start-runner/eslint/master.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/eslint)
+[![coverage](https://img.shields.io/codecov/c/github/start-runner/eslint/master.svg?style=flat-square)](https://codecov.io/github/start-runner/eslint)
 [![deps](https://img.shields.io/gemnasium/start-runner/eslint.svg?style=flat-square)](https://gemnasium.com/start-runner/eslint)
 
 [ESLint](http://eslint.org/) task for [Start](https://github.com/start-runner/start).
