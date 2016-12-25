@@ -10,8 +10,10 @@
 
 ## Install
 
-```
-npm i -D start-eslint
+```sh
+npm install --save-dev start-eslint
+# or
+yarn add --dev start-eslint
 ```
 
 ## Usage
@@ -25,9 +27,9 @@ import eslint from 'start-eslint';
 const start = Start(reporter());
 
 export const lint = () => start(
-    files([ 'lib/**/*.js', 'test/**/*.js' ]),
-    // `.eslintignore` is respected
-    eslint()
+  files([ 'lib/**/*.js', 'test/**/*.js' ]),
+  // `.eslintignore` is respected
+  eslint()
 );
 ```
 
