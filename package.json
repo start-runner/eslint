@@ -15,7 +15,7 @@
   ],
   "main": "build/index.js",
   "dependencies": {
-    "eslint": "^3.3.0"
+    "eslint": "^4.18.0"
   },
   "devDependencies": {
     "babel-preset-start": "^0.1.0",
